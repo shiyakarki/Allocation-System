@@ -32,24 +32,7 @@ This system automates patient acuity ranking, doctor-patient matching, and consu
 
 ---
 
-## 🏗️ System Workflow
 
-```mermaid
-flowchart TD
-    A[Patient Arrival] --> B[Triage & Priority Assignment]
-    B --> C{Priority Level}
-    C -->|Priority 1: Critical| D[Match Specialist or Emergency Doctor]
-    C -->|Priority 2: Urgent| E[Match General Medicine]
-    C -->|Priority 3: Routine| E
-    D --> F{Doctor Available?}
-    E --> F
-    F -->|Yes| G[Assign to Doctor & Begin Treatment]
-    F -->|No| H[Wait in Priority Queue]
-    G --> I[Complete Consultation / Discharge]
-    I -->|Doctor Becomes Free| F
-```
-
----
 
 ## 🛠️ Tech Stack
 
