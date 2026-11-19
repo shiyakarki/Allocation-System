@@ -7,7 +7,7 @@
 
 An intelligent, real-time emergency triage and doctor resource allocation dashboard built in Python. Designed to reduce emergency department bottlenecks by dynamically prioritizing high-acuity patients and matching them to available medical specialists.
 
-🔗 **Live Deployment:** [https://allocation-system-j1bc.onrender.com](https://allocation-system-j1bc.onrender.com)
+🔗 **Live Deployment:** [https://allocation-system-j1bc.onrender.com](https://allocation-system-u1yi.onrender.com)
 
 ---
 
